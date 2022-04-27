@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Featured from "../components/Featured";
+import PizzaList from "../components/PizzaList";
 // import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Featured/>
+      <PizzaList/>
       
     </div>
   );
