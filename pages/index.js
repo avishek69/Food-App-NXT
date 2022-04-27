@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Featured from "../components/Featured";
 // import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
@@ -10,7 +11,7 @@ export default function Home() {
         <meta name="description" content="Best Pizza Shop In our Town" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      homepage
+      <Featured/>
       
     </div>
   );
